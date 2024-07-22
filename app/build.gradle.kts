@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.dash.foodcart"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.dash.foodcart"
@@ -66,4 +66,10 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    // splash api
+    implementation ("androidx.core:core-splashscreen:1.0.0")
+
+    // shared preference
+
 }
